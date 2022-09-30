@@ -10,16 +10,17 @@
 <body>
     <div class="container">
         <h1 id="head"> FUN WITH TRIANGLES </h1>
-            <nav id="nav-bar">
-                <h3 id="nav"><a class="navi" href="/index.html">Area of Triangle</a></h3>
-                <h3 id="nav"><a class="navi" href="/isTriangle.html"> Is Triangle</a></h3>
-                <h3 id="nav"> <a class="nav2" href="/Quiz.html">Quiz</a></h3>
-                <h3 id="nav"><a class="navi" href="/hypotenuse.html">Hypotenuse</a></h3>
+            <nav id="nav-bar" class="navbar">
+                <h3 id="nav"><a class="nav-link" href="/index.html">Area of Triangle</a></h3>
+            <h3 id="nav"><a class="nav-link" href="/isTriangle.html"> Is Triangle</a></h3>
+            <h3 id="nav"> <a class="nav-active-link" href="/Quiz.html">Quiz</a></h3>
+            <h3 id="nav"><a class="nav-link" href="/hypotenuse.html">Hypotenuse</a></h3>
             </nav></div>
 
 
     <div class="main-head"><h1>Triangle Quiz</h1></div>
-    <div class="sub-head"><strong>For each correct answer you will get 1 point</strong></div>
+    <div class="quiz-container">
+        <div class="sub-head"><strong>For each correct answer you will get 1 point</strong></div>
     <form class="quiz-form">
         <div class="question-container">
             <div class="question-text"><p>(1) What is the third angle of the triangle where one angle is 45 second angle is 45 ?</p>
@@ -61,6 +62,7 @@
     </form>
     <div class="btn"><button id="submit-answer-btn">Submit Answers</button></div>
     <div id="output"></div>
+    </div>
 
     
     <footer class="foot">

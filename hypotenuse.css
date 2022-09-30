@@ -1,28 +1,29 @@
-#nav-bar {
-    text-align: right;
-    padding-bottom: 1rem;
+input{
+    padding: 5px;
+    font-size: large;
 }
-#nav {
-    display: inline;
-    padding: 1rem 1rem;
+label{
+    font-size: larger;
 }
-.navi {
+.nav-link,#head {
     text-decoration: none;
     color: white;
 }
-.nav2 {
-    text-decoration: none;
-    color: white;
+.nav-active-link {
     font-size: 130%;
+    text-decoration: none;
+    color: rgb(240, 234, 156);
 }
 .container {
     background-color: rgb(136, 127, 6);
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
 }
-#head {
-    padding-left: 2rem;
-    padding-top: 2rem;
-    color: white;
-    
+.navbar{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 .question-line{
     text-align: center;
